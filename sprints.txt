@@ -1,0 +1,81 @@
+			Sprint 1
+* Frontend: La pagina principal de Game Rock, Paper and Scissors (index.html) debe:
+1- Verse coherente y funcional.
+2- Dejar fijo el encabezado, al bajar por la pagina siempre se debe poder ver la imagen inicial y los botones que redireccionan a las demás paginas.
+3- Ordenar el formato en que se muestran los resultados de la partida.
+4- Mostrar al jugador el resultado de la partida.
+5- Mostrar al jugador la opción elegida por la maquina.
+
+ * Backend:
+1- Organizar funcionalidades entre las clases: user, game y element.
+
+ * Conexión front y back:
+1- Establecer una conexión para que el jugador pueda elegir el elemento a jugar a través de imágenes.
+
+
+ * Testing:
+1- Smoke test? (Averiguar y aplicar)
+2- Realizar test unitarios. JUnit
+3- Test Given/Then/When (Cucumber)
+4- Test de integración (conexión entre back y front)
+5- Test funcionales...
+
+ * Auxiliar:
+1- Averiguar url acceder/adquirir para msotrar proyecto a otros.
+2- Averiguar React
+
+			Sprint 2: Bazinga
+ * Frontend: 
+1- Organizar el como se ve la pagina cuando se muestran los resultados.
+2- Mostrar resultados de la partida.
+3- Mostrar opcion de juego de la maquina.
+
+ * Backend:
+1- Crear clase Bazinga
+2- Crear ServiceBazinga y sus funcionalidades.
+3- Crear BazingaRepository y BazingaRepositoryPost.
+4- Crear Controllers y sus EndPoints.
+5- Conexion de clases con las ya existentes para no repetir codigo?
+
+ * Conexión front y back:
+1- Establecer una conexión para que el jugador pueda elegir el elemento a jugar a través de imágenes.
+
+ * Testing:
+1- Unit Test.
+2- Cumcumber.
+3- 
+
+ * Auxiliar:
+1- 
+
+			Sprint 3: Registrar usuario
+ * Frontend: 
+1- 
+
+ * Backend:
+1- 
+
+ * Conexión front y back:
+1- 
+
+ * Testing:
+1-
+
+ * Auxiliar:
+1- 
+
+			Sprint 4: 
+ * Frontend: 
+1- 
+
+ * Backend:
+1- 
+
+ * Conexión front y back:
+1- 
+
+ * Testing:
+1-
+
+ * Auxiliar:
+1- 

@@ -1,0 +1,9 @@
+
+^
+java:S4973'"<Strings and Boxed types should be compared using "equals()".(ÕœËòıÿÿÿÿ8‚ê½ë¡1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ö–Ãø8…ê½ë¡1
+L
+java:S1874"/Remove this use of "getById"; it is deprecated.(óÄøÀ8ºê½ë¡1
+:
+java:S2119/"Save and re-use this "Random".(¼İÅf8Íê½ë¡1
+X	java:S1255"<This block of commented-out lines of code should be removed.(¸›ÿĞ8Ğê½ë¡1

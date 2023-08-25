@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>New player</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="scripRegPlay.js" defer></script>
+
+    <link rel="shortcut icon" href="images\ppj.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+    <header class="sticky">
+        <div class="logo">
+            <img src="images/sup.png" alt="Logo text" />
+        </div>
+        <nav>
+            <a href="http://127.0.0.1:5500/index.html"><strong>Play</strong></a>
+            <a href="http://127.0.0.1:5500/user.html"><strong>New player</strong></a>
+            <a href="http://127.0.0.1:5500/howtoplay.html"><strong>How to play?</strong></a>
+            <a href="http://127.0.0.1:5500/bazinga.html"><strong>Bazinga</strong></a>
+            <a href="http://127.0.0.1:5500/registerandplay.html"><strong>Register and Play</strong></a>
+        </nav>
+    </header>
+
+    <div class="principal">
+        <main>
+            <h1>Register and play! </h1>
+
+            <form id="registro-form" class="form-container">
+
+                <div class="form-field">
+                    <label for="nombre" class="form-label">Name:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Asilem" required />
+                </div>
+
+                <div class="form-field">
+                    <label for="eleccion" class="form-label">Choose your move:</label>
+                    <select id="eleccion" name="eleccion">
+                        <option value="rock">Rock</option>
+                        <option value="paper">Paper</option>
+                        <option value="scissors">Scissors</option>
+                    </select>
+                </div>
+
+                <button type="submit">Register and Play</button>
+
+                <div id="resultado-container" class="resultado-container">
+                    <p id="resultado-mensaje-machine"></p>
+                    <img src="" alt="Machine's choice" id="machine-choice-image" />
+
+                    <p id="resultado-mensaje"></p>
+                    <img id="resultado-imagen" src="" alt="Resultado" />
+                </div>
+
+            </form>
+
+
+
+
+
+            <h1>List of registered matches</h1>
+
+            <table id="user-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Won Matches</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+
+
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p class="copyright">©Copyright 2023 &#9733;Asilem&#10048;. Todos los derechos revertidos.
+        </p>
+    </footer>
+
+</body>
+
+</html>

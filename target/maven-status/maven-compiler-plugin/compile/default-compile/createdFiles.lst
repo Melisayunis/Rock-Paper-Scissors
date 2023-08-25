@@ -1,0 +1,17 @@
+com\StonePaperScissors\game\StonePaperScissorsApplication.class
+com\StonePaperScissors\game\Models\User.class
+com\StonePaperScissors\game\Models\Element.class
+com\StonePaperScissors\game\Repository\UserRepository.class
+com\StonePaperScissors\game\Repository\ElementRepository.class
+com\StonePaperScissors\game\Repository\ElementRepositoryPost.class
+com\StonePaperScissors\game\Controller\UserController.class
+com\StonePaperScissors\game\Controller\ElementController.class
+com\StonePaperScissors\game\Service\ElementService.class
+com\StonePaperScissors\game\Models\Game.class
+com\StonePaperScissors\game\Service\UserService.class
+com\StonePaperScissors\game\Controller\GameController.class
+com\StonePaperScissors\game\ServletInitializer.class
+com\StonePaperScissors\game\Service\GameService.class
+com\StonePaperScissors\game\Repository\GameRepositoryPost.class
+com\StonePaperScissors\game\Repository\UserRepositoryPost.class
+com\StonePaperScissors\game\Repository\GameRepository.class
