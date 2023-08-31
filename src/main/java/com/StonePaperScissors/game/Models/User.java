@@ -9,11 +9,13 @@ import lombok.Data;
 public class User {
 
     public User() {}
+
     public User(String name){
         this.userName = name;
         this.wonMatches = 0;
         this.userElementChoice = "";
         this.elementChoiceMachine = 0;
+        this.typeGame = 0;
     }
 
     @Id
@@ -33,4 +35,6 @@ public class User {
     @Column(name = "element_choice_machine")
     private Integer elementChoiceMachine;
 
+    @Column(name = "type_game")
+    private Integer typeGame;
 }

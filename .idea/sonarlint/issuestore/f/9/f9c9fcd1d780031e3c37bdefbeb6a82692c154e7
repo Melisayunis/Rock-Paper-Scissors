@@ -1,14 +1,7 @@
 
 {	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(û‰Åµşÿÿÿÿ8ĞŠê¡1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñŞ¥ùÿÿÿÿ8ğ¾ê¡1
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(À“–ãúÿÿÿÿ8÷™Ùê¡1
-i
-java:S1128"GRemove this unused import 'com.StonePaperScissors.game.Models.Element'.(ŸÔ’°ùÿÿÿÿ8½¡Ôê¡1
-a
-java:S1128"DRemove this unused import 'com.StonePaperScissors.game.Models.User'.(‡ş¤·8¾¡Ôê¡1
-n
-java:S1128"LRemove this unused import 'com.StonePaperScissors.game.Service.GameService'.(‘Ú”µùÿÿÿÿ8¿¡Ôê¡1
-i
-java:S1128"LRemove this unused import 'com.StonePaperScissors.game.Service.UserService'.(Éè¶²8¿¡Ôê¡1
-P
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8À¡Ôê¡1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñŞ¥ùÿÿÿÿ8ğ¾ê¡1
+_
+java:S1128"=Remove this unused import 'jakarta.annotation.PostConstruct'.(û²ñüşÿÿÿÿ8Œ˜­ò¢1
+u
+java:S1128"SRemove this unused import 'org.springframework.beans.factory.annotation.Autowired'.(¡¸Îùÿÿÿÿ8˜­ò¢1

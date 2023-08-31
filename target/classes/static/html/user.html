@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>New player</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="/css/styles.css" />
+
+  <link rel="shortcut icon" href="/images/ppj.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <header class="sticky">
+    <div class="logo">
+      <img src="/images/sup.png" alt="Logo text" />
+    </div>
+    <nav>
+      <a href="http://127.0.0.1:5500/html/index.html" ><strong>Play</strong></a>
+      <a href="http://127.0.0.1:5500/html/user.html" aria-current="page"><strong>New player</strong></a>
+      <a href="http://127.0.0.1:5500/html/howtoplay.html"><strong>How to play?</strong></a>
+      <a href="http://127.0.0.1:5500/html/bazinga.html"><strong>Bazinga</strong></a>
+      <a href="http://127.0.0.1:5500/html/registerandplay.html"><strong>Register and Play</strong></a>
+    </nav>
+  </header>
+
+
+  <div class="principal">
+
+    <main>
+      <h1>Create a New Player</h1>
+
+      <form id="registro">
+        <div class="form-line">
+          <label for="nombre">Name: </label>
+          <input type="text" id="name" name="nombre" placeholder="Ej. Asilem" required />
+
+          <div id="mensaje-exito" style="display: none;"></div>
+        </div>
+
+        <button type="submit">Sign in</button>
+
+      </form>
+
+
+      <h1>List of registered users</h1>
+
+      <table id="user-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Won Matches</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+
+    </main>
+  </div>
+  
+  <footer class="footer">
+    <p class="copyright">©Copyright 2023 &#9733;Asilem&#10048;. Todos los derechos revertidos.
+    </p>
+  </footer>
+
+  <script type="module" src="/js/scriptUser.js" defer></script>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Play</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="shortcut icon" href="/images/ppj.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/css/styles.css" />
+
+</head>
+
+<body>
+  <header class="sticky">
+    <div class="logo">
+      <img src="/images/sup.png" alt="Logo text" />
+    </div>
+    <nav>
+      <a href="http://127.0.0.1:5500/html/index.html" aria-current="page"><strong>Play</strong></a>
+      <a href="http://127.0.0.1:5500/html/user.html"><strong>New player</strong></a>
+      <a href="http://127.0.0.1:5500/html/howtoplay.html"><strong>How to play?</strong></a>
+      <a href="http://127.0.0.1:5500/html/bazinga.html"><strong>Bazinga</strong></a>
+      <a href="http://127.0.0.1:5500/html/registerandplay.html"><strong>Register and Play</strong></a>
+    </nav>
+  </header>
+
+  <div class="principal">
+
+    <main>
+
+      <h1>Rock, Paper and Scissors! xD</h1>
+      <br>
+
+      <div class="afterplay">
+        <h3> Now... Go to play? </h3>
+        <h4> Choose and click who you want to play with: </h4>
+      </div>
+
+      <div class="choices">
+        <div class="choice" data-value="rock">
+            <figure class="image-container">
+                <img src="/images/piedras/piedraboton.png" alt="rock" id="piedra" />
+                <figcaption class="text-overlay">Buscar frase para la piedra</figcaption>
+            </figure>
+        </div>
+        <div class="choice" data-value="paper">
+            <figure class="image-container">
+                <img src="/images/papel/papelboton.png" alt="paper" id="papel" />
+                <figcaption class="text-overlay">En cualquier momento el papel te puede cortar..</figcaption>
+            </figure>
+        </div>
+        <div class="choice" data-value="scissors">
+            <figure class="image-container">
+                <img src="/images/tijeras/tijeraboton.png" alt="scissors" id="tijera" />
+                <figcaption class="text-overlay">Buscarle algo a la tijera..</figcaption>
+            </figure>
+        </div>
+    </div>
+    
+<!-- 
+      <div class="choices">
+        <div class="choice" data-value="rock">
+          <img src="/images/piedras/piedraboton.png" alt="rock" id="piedra" />
+        </div>
+        <div class="choice" data-value="paper">
+          <img src="/images/papel/papelboton.png" alt="paper" id="papel" />
+        </div>
+        <div class="choice" data-value="scissors">
+          <img src="/images/tijeras/tijeraboton.png" alt="scissors" id="tijera" />
+        </div>
+      </div>
+--> 
+      <div id="resultado-container" class="resultado-container">
+        <p id="resultado-mensaje-machine"></p>
+        <img src="" alt="Machine's choice" id="machine-choice-image" />
+
+        <p id="resultado-mensaje"></p>
+        <img id="resultado-imagen" src="" alt="Resultado" />
+      </div>
+
+
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p class="copyright">©Copyright 2023 &#9733;Asilem&#10048;. Todos los derechos revertidos.
+    </p>
+  </footer>
+
+  <script type="module" src="/js/scripPlay.js"></script>
+</body>
+
+</html>

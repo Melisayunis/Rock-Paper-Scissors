@@ -1,0 +1,8 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔÂøÉıÿÿÿÿ8¿¨Ÿò¢1
+f
+java:S2259*"IA "NullPointerException" could be thrown; "userElement" is nullable here.(¦àÙ8ûÅĞ˜¤1
+¶
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(É•÷‘8Ü¨Ÿò¢1
+:
+java:S2119@"Save and re-use this "Random".(¼İÅf8Æ‰¬ô¢1

@@ -1,7 +1,0 @@
-
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(í‰ˆ8½ºì¡1
-X	java:S125@"<This block of commented-out lines of code should be removed.(ª·Şµ8»ì¡1
-i
-java:S1128"GRemove this unused import 'com.StonePaperScissors.game.Models.Element'.(ŸÔ’°ùÿÿÿÿ8»ì¡1
-b
-java:S1128"@Remove this unused import 'org.springframework.http.HttpStatus'.(íŸ¤Šúÿÿÿÿ8»ì¡1
